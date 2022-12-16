@@ -1,0 +1,336 @@
+{
+	"asset": {
+		"generator": "VISUALIZEGLTF",
+		"version" : "2.0"
+	},
+	"extensionsUsed": [ "KHR_lights_punctual" ],
+	"scenes": [
+		{
+			"name": "Default",
+			"nodes": [
+				0]
+		}
+	],
+	"nodes": [
+		{
+			"children": [
+				1, 5, 6, 7, 8, 9, 10
+			]
+			,"name": "Root"		}
+,
+		{
+			"children": [
+				2
+			]
+			,"matrix": [
+				1,					0,					0,					0,
+				0,					1,					0,					0,
+				0,					0,					1,					0,
+				0,					-0.006185457,					0,					1
+			]
+			,"name": "Holster Assembly (Default)"		}
+,
+		{
+			"children": [
+				3, 4
+			]
+			,"name": "Default"		}
+,
+		{
+			"mesh": 0
+			,"name": "blue soft touch plastic"		}
+,
+		{
+			"mesh": 1
+			,"name": "black satin finish plastic"		}
+,
+		{
+			"matrix": [
+				-0.6493578,					-0.04137972,					-0.7593563,					0,
+				-0.4852367,					0.7913875,					0.3718213,					0,
+				0.5855593,					0.6099127,					-0.5339727,					0,
+				0.265077,					0.296796,					-0.1265077,					1
+			]
+			,"camera": 0
+			,"name": "SOLIDWORKS Viewport"		}
+,
+		{
+			"matrix": [
+				0.7071068,					0,					-0.7071068,					0,
+				-0.1622216,					0.9733286,					-0.1622216,					0,
+				0.6882472,					0.2294159,					0.6882472,					0,
+				4.445094,					1.981699,					4.445094,					1
+			]
+			,"camera": 1
+			,"name": "Default Camera"		}
+,
+		{
+			"matrix": [
+				0.1873813,					0,					-0.9822873,					0,
+				-0.8124308,					0.5620834,					-0.1549794,					0,
+				0.5521273,					0.8270806,					0.1053239,					0,
+				5.521273,					8.270805,					1.053239,					1
+			]
+			,"extensions" : {
+				"KHR_lights_punctual" : {
+					"light" : 0
+				}
+			}
+			,"name": "Directional1"		}
+,
+		{
+			"matrix": [
+				0.9911693,					0,					-0.1326023,					0,
+				-0.06378024,					0.8767266,					-0.4767414,					0,
+				0.116256,					0.4809889,					0.8689846,					0,
+				1.162561,					4.809888,					8.689847,					1
+			]
+			,"extensions" : {
+				"KHR_lights_punctual" : {
+					"light" : 1
+				}
+			}
+			,"name": "Directional2"		}
+,
+		{
+			"name": "3 Point Faded"		}
+,
+		{
+			"name": "3 Point Faded Backplate"		}
+	],
+	"cameras": [
+		{
+			"type": "perspective",
+			"perspective" : {
+				"aspectRatio": 1.25,
+				"yfov" : 0.3215369,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+,
+		{
+			"type": "perspective",
+			"perspective" : {
+				"aspectRatio": 1.777778,
+				"yfov" : 0.2617994,
+				"zfar" : 100,
+				"znear" : 0.01
+			}
+		}
+	],
+	"extensions": {
+		"KHR_lights_punctual" : {
+			"lights": [
+		{
+			"name": "Directional1[1]",
+			"color": [
+					0.5773503, 0.5773503, 0.5773503
+				],
+			"intensity": 0.5773503,
+			"type": "directional"
+		}
+,
+		{
+			"name": "Directional2[1]",
+			"color": [
+					0.5773503, 0.5773503, 0.5773503
+				],
+			"intensity": 0.5773503,
+			"type": "directional"
+		}
+
+			]
+		}
+	},
+	"meshes" : [
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+					"POSITION" : 1
+					,"NORMAL" : 2
+					,"TEXCOORD_0" : 3
+					},
+					"indices" : 0,
+					"mode": 4,
+					"material" : 0
+				}
+			]
+		},
+		{
+			"primitives" : [
+				{
+					"attributes" : {
+					"POSITION" : 5
+					,"NORMAL" : 6
+					,"TEXCOORD_0" : 7
+					},
+					"indices" : 4,
+					"mode": 4,
+					"material" : 1
+				}
+			]
+		}
+	],
+	"accessors" : [
+			{
+				"bufferView": 3,
+				"byteOffset" : 0,
+				"componentType" : 5125,
+				"count" : 1008,
+				"type" : "SCALAR"
+			},
+			{
+				"bufferView": 0,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 374,
+				"type" : "VEC3"
+								,"min": [0.0240746662,0.00948545709,0.0735323578]
+								,"max": [0.0460746661,0.0904854536,0.0955323577]
+			},
+			{
+				"bufferView": 1,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 374,
+				"type" : "VEC3"
+			},
+			{
+				"bufferView": 2,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 374,
+				"type" : "VEC2"
+			},
+			{
+				"bufferView": 7,
+				"byteOffset" : 0,
+				"componentType" : 5125,
+				"count" : 7632,
+				"type" : "SCALAR"
+			},
+			{
+				"bufferView": 4,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 3198,
+				"type" : "VEC3"
+								,"min": [0.0122323455,0.00648545707,0.0695323572]
+								,"max": [0.0500671305,0.119181633,0.106266908]
+			},
+			{
+				"bufferView": 5,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 3198,
+				"type" : "VEC3"
+			},
+			{
+				"bufferView": 6,
+				"byteOffset" : 0,
+				"componentType" : 5126,
+				"count" : 3198,
+				"type" : "VEC2"
+			}
+	],
+	"materials": [
+			{
+				"name": "blue soft touch plastic",
+				"emissiveFactor": [
+					0, 0, 0
+				]
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						1, 0.3647202, 0.0005148873, 1
+					]
+					,"metallicFactor": 0
+					,"roughnessFactor": 0.6440087
+				}
+				,"alphaMode": "OPAQUE"
+				,"doubleSided": true
+			},
+			{
+				"name": "black satin finish plastic",
+				"emissiveFactor": [
+					0, 0, 0
+				]
+				,"pbrMetallicRoughness": {
+					"baseColorFactor": [
+						0.009476753, 0.009476753, 0.009476753, 1
+					]
+					,"metallicFactor": 0.2449173
+					,"roughnessFactor": 0.595382
+				}
+				,"alphaMode": "OPAQUE"
+				,"doubleSided": true
+			}
+	],
+	"bufferViews" : [
+			{
+				"buffer": 0
+				,"byteOffset" : 0
+				,"byteLength" : 4488
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 4488
+				,"byteLength" : 4488
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 8976
+				,"byteLength" : 2992
+				,"byteStride" : 8
+				,"target" : 34962
+			},
+			{
+				"buffer": 0
+				,"byteOffset" : 11968
+				,"byteLength" : 4032
+				,"target" : 34963
+			},
+			{
+				"buffer": 1
+				,"byteOffset" : 0
+				,"byteLength" : 38376
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 1
+				,"byteOffset" : 38376
+				,"byteLength" : 38376
+				,"byteStride" : 12
+				,"target" : 34962
+			},
+			{
+				"buffer": 1
+				,"byteOffset" : 76752
+				,"byteLength" : 25584
+				,"byteStride" : 8
+				,"target" : 34962
+			},
+			{
+				"buffer": 1
+				,"byteOffset" : 102336
+				,"byteLength" : 30528
+				,"target" : 34963
+			}
+	],
+	"buffers" : [
+			{
+				"byteLength": 16000
+				,"uri" : "Screwdriver_Holder_0001.bin"
+			},
+			{
+				"byteLength": 132864
+				,"uri" : "Screwdriver_Holder_0002.bin"
+			}
+	]
+}
